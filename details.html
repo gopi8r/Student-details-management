@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENTS DETAILS AND REPORT</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <div id="top">
+        <p><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Facebook_credits_World_Logo.png" alt="logo"></p>
+        <p id="text">Enter The Student Details</p>
+        <button id="home"onclick="window.location='home.html';">
+            Home</button>
+        <button onclick="window.location='getdetail.html';">
+            Get Details</button>
+            <button onclick="window.location='delete.html';">
+                Delete Details</button>
+        <button onclick="window.location='home.html';">
+            About Us</button>
+
+    </div>
+    <div id="container">
+        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGjmnPP5ngv8_ekO3nTlWNUNYE_SGfDVznGw&usqp=CAU" alt="IMG"><br>
+        <label for="name">Name</label><br>
+        <input type="text" placeholder="Enter your Name.." id="name" required><br>
+        <label for="regno">Register Number</label><br>
+        <input type="text" placeholder="Enter your Register Number.." id="regno" required><br>
+        <label for="date">Date Of Birth</label><br>
+        <input type="date" id="date" required><br>
+        <label for="yar">Year of Studing</label><br>
+        <select id="yar">
+            <option>Select</option>
+            <option value="First">First</option>
+            <option value="Second">Second</option>
+            <option value="Third">Third</option>
+            <option value="Fourth">Fourth</option>
+        </select><br>
+       
+        <label for="dept">Department</label><br>
+        <select id="dept">
+            <option>Select</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Electrical And Electronic">Electrical And Electronic</option>
+            <option value="Mechanical">Mechanical</option>
+            <option value="Civil">civil</option>
+        </select><br>
+        <button id="btn" onclick="button()">Submit</button>
+    </div>
+    <script src="details.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+#container{
+    background-color: rgba(255, 255, 255, 0.718);
+    height: auto;
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 550px;
+    border-radius: 25px;
+}
+img{
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/302495.jpg");
+
+    background-repeat: no-repeat;
+}
+label{
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+input,select{
+    margin-left: 40px;
+    width: 300px;
+    height: 25px;
+    border-radius: 100px ;
+    border-color: rgba(240, 248, 255, 0);
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+select{
+    width: 310px;
+    height: 30px;
+}
+#btn{
+    margin-left: 120px;
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color:white;
+    border-color: rgba(240, 248, 255, 0);
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+#top{
+    background-color: rgba(255, 255, 255, 0.718);
+    margin-top: 0px;
+    height: 50px;
+    border-radius: 10px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgba(240, 248, 255, 0);
+    padding-top: 0px;
+
+    display: inline;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    text-align:  left;
+    float: left;
+}
+#home{
+    margin-left: 700px;
+    width: 100px;
+}
+#text{
+    margin-top: 15px;
+    float: left;
+    font-size: 20px;
+    padding-left: 10px;
+}
